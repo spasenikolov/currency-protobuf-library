@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.example.currency;
+
+message CurrencyEvent {
+  double value = 1;
+  string timestamp = 2;
+}
+
